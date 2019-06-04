@@ -4,10 +4,10 @@
 import numpy
 from numpy import *
 from collections import Counter
-from sklearn.neighbors import kNeighborsClassifier as kNN
-from keras.models import Sequential # A CNN is more commonly used to the sequential network structure
-from keras.layers.core import Dense, Dropout, Activation
-from keras.models import load_model
+from sklearn.neighbors import KNeighborsClassifier as kNN
+# from keras.models import Sequential # A CNN is more commonly used to the sequential network structure
+# from keras.layers.core import Dense, Dropout, Activation
+# from keras.models import load_model
 from sklearn import svm
 from sklearn.ensemble import RandomForestClassifier # classification
 from sklearn.linear_model import LogisticRegression
